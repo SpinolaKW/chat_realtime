@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "drona.db.elephantsql.com",
+   "port": 5432,
+   "username": "jldvgjki",
+   "password": "IV1eo2hG8kqrtC7Rmmdu3vFXNxgCtSbV",
+   "database": "jldvgjki",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
